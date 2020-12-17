@@ -42,25 +42,25 @@
 
 module.exports = {
   service1: {
-    api: '/service1',
-    url: 'http://localhost:3001',
-    bundle: 'bundle.js',
+    api: '/photo-carousel/:id/photos/',
+    url: 'http://54.241.52.191:3001',
+    bundle: '/:id/bundle.js',
   },
   service2: {
-    api: '/service2',
-    url: 'http://localhost:3002',
-    bundle: 'app.js',
+    api: '/listings/:id/',
+    url: 'http://18.208.4.171:3002',
+    bundle: '/:id/build/bundle.js',
   },
   service3: {
-    api: 'FIX_ME',
-    url: 'http://localhost:3003',
-    bundle: 'app.js',
+    api: '/review-listings/:id/reviews',
+    url: 'http://54.183.244.149:3003',
+    bundle: '/:id/bundle.js',
   },
   service4: {
     api: '/:id/places',
     // api: '/',
     // api: '/rooms/:id/',
-    url: 'http://localhost:3004',
+    url: 'http://18.144.8.147:3004',
     bundle: '/:id/main.js',
   },
 };
