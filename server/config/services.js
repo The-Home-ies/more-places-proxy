@@ -48,7 +48,7 @@ module.exports = {
   },
   service2: {
     api: '/listings/:id/',
-    url: 'http://18.208.4.171:3002',
+    url: 'http://54.151.102.122',
     bundle: '/:id/build/bundle.js',
   },
   service3: {
