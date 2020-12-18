@@ -60,7 +60,7 @@ module.exports = {
     api: '/:id/places',
     // api: '/',
     // api: '/rooms/:id/',
-    url: 'http://18.144.8.147:3004',
+    url: 'http://54.177.32.2',
     bundle: '/:id/main.js',
   },
 };
