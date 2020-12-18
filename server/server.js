@@ -8,7 +8,7 @@ const app = express();
 
 // HTTP request logger middlaware
 // 'dev' option provides colored response for development use
-app.use(morgan('dev'));
+// app.use(morgan('dev'));
 app.use('/:id', express.static(PUBLIC_DIR));
 
 // Handling asset requests for webpack bundles by passing off requests to the bundles router
